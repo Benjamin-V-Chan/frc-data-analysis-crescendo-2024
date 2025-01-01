@@ -1,0 +1,1 @@
+seperation_bar = print("\n" + "="*100 + "\n")
