@@ -1,1 +1,1 @@
-seperation_bar = print("\n" + "="*100 + "\n")
+seperation_bar = "\n" + "=" * 100 + "\n"
