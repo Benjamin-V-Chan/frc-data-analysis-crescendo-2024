@@ -9,7 +9,7 @@ print("Script 05: Data Analysis & Team Statistics Aggregation\n")
 
 # File paths
 team_matches_path = "data/processed/cleaned_port_h_team_matches.json"
-team_statistics_path = "outputs/team_data/team_statistics.json"
+team_statistics_path = "outputs/team_data/team_statistical_analysis.json"
 
 # Helper Functions
 
