@@ -53,13 +53,13 @@ The datasets used to test and refine this pipeline were collected from my FRC te
 │   │   ├── top_10_totalNotes_avg.png
 │   │   ├── top_10_shooting_efficiency.png
 │   │   ├── ...
-├── scripts/
-│   ├── 01_json_structure_fixes.py                                         # Fixes malformed JSON files
+├── scripts/                     # All scripts
+│   ├── 01_json_structure_fixes.py                             # Fixes malformed JSON files
 │   ├── 02_clear_outputs.py                                    # Clears outputs folder
 │   ├── 03_data_cleaning_and_preprocessing.py                  # Cleans and preprocesses raw data
 │   ├── 04_team_statistics_and_data_restructuring.py           # Structures team-level data
-│   ├── 05_data_analysis_and_statistics_aggregation.py         # Aggregates team-level metrics
-│   ├── 06_team_analysis_and_comparison.py                     # Combines analysis, rankings, and visualizations
+│   ├── 05_data_analysis_and_statistics_aggregation.py         # Data Analysis and Statistical Aggregation of team-level metrics
+│   ├── 06_team_analysis_and_comparison.py                     # Full advanced comparative statistical-based analysis of different teams
 ```
 
 ---
@@ -80,7 +80,7 @@ The datasets used to test and refine this pipeline were collected from my FRC te
   - Removes duplicate match entries and incorrect fields.
   - Tracks scouter-specific errors and generates a leaderboard.
   - Ensures consistent match counts and positions.
-- **Output**: `cleaned_port_h_matchapps.json` in `data/processed`.
+- **Output**: `cleaned_port_h_matchapps.json`.
 
 ### 4. `04_team_statistics_and_data_restructuring.py`
 - **Purpose**: Restructures match-level data into team-based summaries.
@@ -102,6 +102,7 @@ The datasets used to test and refine this pipeline were collected from my FRC te
   - Ranks teams for each metric and saves textual summaries.
   - Generates visualizations for top-performing teams.
 - **Outputs**:
+  - Advanced team-level statistical analysis in `team_advanced_comparative_statistical_analysis.json`
   - Rankings in `team_comparison_stats.txt`.
   - Visualizations in `outputs/visualizations`.
 
