@@ -8,7 +8,7 @@ print("Script 04: Team Based Data Restructuring\n")
 
 # File paths
 cleaned_data_path = "data/processed/cleaned_port_h_matchapps.json"
-team_performance_path = "outputs/team_data/team_performance.json"
+team_performance_path = "data/processed/cleaned_port_h_team_matches.json"
 
 # Functions to restructure and calculate statistics
 
