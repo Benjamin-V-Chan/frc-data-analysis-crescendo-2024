@@ -9,8 +9,8 @@ print(seperation_bar)
 print("Script 06: Team Comparison Analysis\n")
 
 # File paths
-team_statistics_path = "outputs/team_data/team_statistics.json"
-output_analysis_path = "outputs/team_data/team_advanced_analysis.json"
+team_statistics_path = "outputs/team_data/team_statistical_analysis.json"
+output_analysis_path = "outputs/team_data/team_advanced_comparative_statistical_analysis.json"
 output_statistics_path = "outputs/statistics/team_comparison_stats.txt"
 visualizations_dir = "outputs/visualizations"
 
