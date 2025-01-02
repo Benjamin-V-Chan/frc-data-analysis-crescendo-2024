@@ -93,7 +93,7 @@ try:
     process_json_directory(json_directory)
 
     print("\nAll JSON files have been reformatted successfully.")
-    print("Script 01: Successfully Completed.")
+    print("Script 01: Completed.")
 
 except Exception as e:
     print(f"[ERROR] An unexpected error occurred during execution: {e}")

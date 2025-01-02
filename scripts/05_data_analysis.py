@@ -83,7 +83,7 @@ try:
     print(f"[INFO] Saving team analysis to: {output_analysis_path}")
     team_analysis_df.to_json(output_analysis_path, orient="records", indent=4)
 
-    print("\nScript 05: Successfully Completed.")
+    print("\nScript 05: Completed.")
 
 except FileNotFoundError as fnf_error:
     print(f"[ERROR] File not found: {fnf_error}")

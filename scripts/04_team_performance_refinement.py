@@ -69,7 +69,7 @@ try:
     print(f"[INFO] Saving advanced team performance to: {advanced_team_data_path}")
     advanced_performance_df.to_json(advanced_team_data_path, orient="index", indent=4)
 
-    print("\nScript 04: Successfully Completed.")
+    print("\nScript 04: Completed.")
 
 except FileNotFoundError as fnf_error:
     print(f"[ERROR] File not found: {fnf_error}")

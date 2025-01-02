@@ -78,7 +78,7 @@ try:
         plt.savefig(os.path.join(visualizations_dir, f"top_{top_n}_{metric}.png"))
         plt.close()
 
-    print("\nScript 06: Successfully Completed.")
+    print("\nScript 06: Completed.")
 
 except FileNotFoundError as fnf_error:
     print(f"[ERROR] File not found: {fnf_error}")

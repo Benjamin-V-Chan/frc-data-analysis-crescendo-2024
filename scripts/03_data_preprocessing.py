@@ -67,7 +67,7 @@ try:
         f.write(raw_data_shape)
         f.write(processed_data_shape)
 
-    print("\nScript 03: Successfully Completed.")
+    print("\nScript 03: Completed.")
 
 except FileNotFoundError as fnf_error:
     print(f"[ERROR] File not found: {fnf_error}")

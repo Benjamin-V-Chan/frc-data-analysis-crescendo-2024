@@ -104,7 +104,7 @@ try:
     )
 
     print("\nAll specified directories have been checked, cleared, or created as necessary.")
-    print("Script 02: Successfully Completed.")
+    print("Script 02: Completed.")
 
 except Exception as e:
     print(f"An error occurred: {e}")
