@@ -1,4 +1,4 @@
-# frc-data-analysis-crescendo-2024
+# frc-data-science-crescendo-2024
 
 ## Overview
 This project is a data analysis pipeline designed to process and analyze scouting data from FRC matches for the 2024 game, *Crescendo*. The goal is to provide insightful statistics, advanced analytics, and visualizations to evaluate team performances effectively. The pipeline uses Python for data processing, aggregation, and visualization.
